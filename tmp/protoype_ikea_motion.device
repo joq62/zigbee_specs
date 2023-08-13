@@ -1,0 +1,8 @@
+{zigbee_device,
+#{<<"modelid">>=><<"TRADFRI motion sensor">>,
+  <<"name">>=><<"protoype_ikea_motion">> ,
+  <<"state">>=>[<<"dark">>,<<"lastupdated">>,<<"presence">],
+  <<"type">>=><<"ZHAPresence">>,
+  <<"module">>=>a
+}
+}.
