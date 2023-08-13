@@ -1,0 +1,11 @@
+{zigbee_device,
+	#{<<"modelid">>=><<"TRADFRI control outlet">>,
+	  <<"device_type">>=><<"lights">>,
+	  <<"name">>=><<"lamp_1">> ,
+          <<"state">>=>[
+	        <<"alert">>,
+                <<"on">>,
+                <<"reachable">>],
+  <<"type">>=><<"On/Off plug-in unit">>,
+  <<"module">>=> tradfri_control_outlet
+}}.

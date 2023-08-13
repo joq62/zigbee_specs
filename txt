@@ -1,0 +1,27 @@
+rm -rf *~ *.beam erl_crash*;
+erlc *.erl;
+erl -s zigbee_spec_check start;
+Eshell V12.2.1  (abort with ^G)
+1> Checking #{<<"device_type">> => <<"lights">>,
+           <<"modelid">> => <<"TRADFRI bulb E27 CWS 806lm">>,
+           <<"module">> => tradfri_bulb_E27_cws_806lm,
+           <<"name">> => <<"lamp_1">>,
+           <<"state">> =>
+               [<<"bri">>,<<"colormode">>,<<"ct">>,<<"xy">>,<<"effect">>,
+                <<"hue">>,<<"alert">>,<<"on">>,<<"reachable">>],
+           <<"type">> => <<"Extended color light">>}
+1> {"init terminating in do_boot",{function_clause,[{zigbee_spec_check,check,[[{error,{7,erl_parse,["syntax error before: ","'<<'"]}},
+
+{ok,[{zigbee_device,#{<<"device_type">>=><<"lights">>,<<"modelid">>=><<"TRADFRIbulbE14WScandleopal470lm">>,<<"module">>=>a,<<"name">>=><<"blue_lamp_inglasad">>,<<"state">>=>[<<"bri">>,<<"colormode">>,<<"ct">>,<<"alert">>,<<"on">>,<<"reachable">>],<<"type">>=><<"Color temperature light">>}}]},
+
+{ok,[{zigbee_device,#{<<"device_type">>=><<"sensors">>,<<"modelid">>=><<"TRADFRI motion sensor">>,<<"module">>=>a,<<"name">>=><<"protoype_ikea_motion">>,<<"state">>=>[<<"dark">>,<<"lastupdated">>,<<"presence">>],<<"type">>=><<"ZHAPresence">>}}]},
+
+{ok,[{zigbee_device,#{<<"device_type">>=><<"lights">>,<<"modelid">>=><<"TRADFRI on/off switch">>,<<"module">>=>a,<<"name">>=><<"switch_all">>,<<"state">>=>[<<"buttonevent">>,<<"lastupdated">>],<<"type">>=><<"ZHASwitch">>}}]},
+
+{ok,[{zigbee_device,#{<<"device_type">>=><<"lights">>,<<"modelid">>=><<"TRADFRI control outlet">>,<<"module">>=>tradfri_control_outlet,<<"name">>=><<"switch_lamp_balcony">>,<<"state">>=>[<<"alert">>,<<"on">>,<<"reachable">>],<<"type">>=><<"On/Off plug-in unit">>}}]},
+
+{ok,[{zigbee_device,#{<<"device_type">>=><<"lights">>,<<"modelid">>=><<"TRADFRI bulb E27 CWS 806lm">>,<<"module">>=>tradfri_bulb_E27_cws_806lm,<<"name">>=><<"light_color_joakim">>,<<"state">>=>[<<"bri">>,<<"colormode">>,<<"ct">>,<<"xy">>,<<"effect">>,<<"hue">>,<<"alert">>,<<"on">>,<<"reachable">>],<<"type">>=><<"Extended color light">>}}]},
+
+{ok,[{zigbee_device,#{<<"device_type">>=><<"lights">>,<<"modelid">>=><<"TRADFRI control outlet">>,<<"module">>=>tradfri_control_outlet,<<"name">>=><<"lamp_1">>,<<"state">>=>[<<"alert">>,<<"on">>,<<"reachable">>],<<"type">>=><<"On/Off plug-in unit">>}}]},
+
+{ok,[{zigbee_device,#{<<"device_type">>=><<"lights">>,<<"modelid">>=><<"TRADFRI bulb E27 WW 806lm">>,<<"module">>=>tradfri_bulb_e27_ww_806lm,<<"name">>=><<"lamp_inglasad">>,<<"state">>=>[<<"bri">>,<<"alert">>,<<"on">>,<<"reachable">>],<<"type">>=><<"Dimmable light">>}}]}]],[{file,"zigbee_spec_check.erl"},{line,25}]},{zigbee_spec_check,start,0,[{file,"zigbee_spec_check.erl"},{line,21}]},{init,start_em,1,[]},{init,do_boot,3,[]}]}}
