@@ -1,0 +1,8 @@
+{zigbee_device,
+#{<<"modelid">>=><<"TRADFRI control outlet">>,
+  <<"name">>=><<"switch_lamp_balcony">>,
+  <<"state">>=>[<<"alert">>,<<"on">>,<<"reachable">>],
+  <<"type">>=><<"On/Off plug-in unit">>,
+  <<"module">>=>tradfri_control_outlet
+}
+}.

@@ -1,0 +1,8 @@
+{zigbee_device,
+#{<<"modelid">>=><<"TRADFRI on/off switch">>,
+  <<"name">>=><<"switch_all">> ,
+  <<"state">>=>[<<"buttonevent">>,<<"lastupdated">>],
+  <<"type">>=><<"ZHASwitch">>,
+  <<"module">>=>a
+}
+}.
