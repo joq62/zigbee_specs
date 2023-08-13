@@ -1,0 +1,16 @@
+{zigbee_device,
+	#{<<"modelid">>=><<"TRADFRI bulb E27 CWS 806lm">>,
+	  <<"device_type">>=><<"lights">>,
+	  <<"name">>=><<"light_color_1">> ,
+          <<"state">>=>[<<"bri">>,
+                <<"colormode">>,
+                <<"ct">>,
+                <<"xy">>,
+                <<"effect">>,
+                <<"hue">>,
+	        <<"alert">>,
+                <<"on">>,
+                <<"reachable">>],
+  <<"type">>=><<"Extended color light">>,
+  <<"module">>=> tradfri_bulb_E27_cws_806lm
+}}.

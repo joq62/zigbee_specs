@@ -1,0 +1,10 @@
+{zigbee_device,
+	#{<<"modelid">>=><<"lumi.sensor_magnet.aq2">>,
+	  <<"device_type">>=><<"sensors">>,
+	  <<"name">>=><<"lumi_magnet_1">> ,
+          <<"state">>=>[
+	        <<"lastupdated">>,
+                <<"open">>],
+  <<"type">>=><<"ZHAOpenClose">>,
+  <<"module">>=> lumi_sensor_magnet_aq2
+}}.
