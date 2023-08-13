@@ -1,0 +1,10 @@
+{zigbee_device,
+	#{<<"modelid">>=><<"lumi.weather">>,
+	  <<"device_type">>=><<"sensors">>,
+	  <<"name">>=><<"press_1">> ,
+          <<"state">>=>[
+	        <<"lastupdated">>,
+                <<"pressure">>],
+  <<"type">>=><<"ZHAPressure">>,
+  <<"module">>=> lumi_sensor_pressure
+}}.
