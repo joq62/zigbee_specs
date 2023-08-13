@@ -2,7 +2,7 @@
 #{<<"modelid">>=><<"TRADFRI motion sensor">>,
   <<"name">>=><<"protoype_ikea_motion">> ,
  % <<"state">>=>[<<"dark">>,<<"lastupdated">>,<<"presence">],
-  <<"state">>=>[],
+  <<"state">>=>[<<"dark">>],
  <<"type">>=><<"ZHAPresence">>,
   <<"module">>=>a
 }
