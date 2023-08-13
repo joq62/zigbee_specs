@@ -1,5 +1,6 @@
 {zigbee_device,
 #{<<"modelid">>=><<"TRADFRIbulbE14WScandleopal470lm">>,
+	  <<"device_type">>=><<"lights">>,
 <<"name">>=><<"blue_lamp_inglasad">>,
 <<"state">>=>[<<"bri">>,<<"colormode">>,<<"ct">>,<<"alert">>,<<"on">>,<<"reachable">>],
 <<"type">>=><<"Color temperature light">>,

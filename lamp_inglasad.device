@@ -1,5 +1,6 @@
 {zigbee_device,
 #{<<"modelid">>=><<"TRADFRI bulb E27 WW 806lm">>,
+ <<"device_type">>=><<"lights">>,
   <<"name">>=><<"lamp_inglasad">> ,
   <<"state">>=>[<<"bri">>,<<"alert">>,<<"on">>,<<"reachable">>],
   <<"type">>=><<"Dimmable light">>,

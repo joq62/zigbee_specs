@@ -26,7 +26,7 @@ check([])->
     io:format("Success, OK ! ~n");
 check([{ok,[{zigbee_device,Map}]}|T])->
     io:format("Checking ~p~n",[Map]),
-    [<<"modelid">>,<<"module">>,<<"name">>,<<"state">>,<<"type">>]=lists:sort(maps:keys(Map)),
+    [<<"device_type">>,<<"modelid">>,<<"module">>,<<"name">>,<<"state">>,<<"type">>]=lists:sort(maps:keys(Map)),
     check(T).
 
    
